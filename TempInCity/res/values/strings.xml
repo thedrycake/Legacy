@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_current_city">Appens aktuella stad</string>
+    <string name="app_name">Temp i stan</string>
+    <string name="choose_city">Välj stad</string>
+    <string name="menu_settings">Inställningar</string>
+    <string name="menu_update">Uppdatera</string>
+    <string name="not_available">N/A</string>
+    <string name="temp_in">Temp i</string>
+    <string name="title_activity_temp_widget_configure">@string/choose_city</string>
+    <string name="updated_at">Uppdaterad kl.</string>
+
+</resources>

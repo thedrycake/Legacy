@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Week number</string>
+    <string name="menu_settings">Settings</string>
+    <string name="not_available">N/A</string>
+    <string name="pref_category_title_general">General</string>
+    <string name="pref_category_title_widget">Widget</string>
+    <string name="pref_title_first_day_of_week">First day of week</string>
+    <string name="pref_title_minimal_days_in_first_week">Minimal days in first week</string>
+    <string name="pref_title_widget_action">Open on click</string>
+    <string name="pref_title_widget_theme">Theme</string>
+    <string name="pref_title_widget_title">Title</string>
+    <string name="pref_title_widget_transparent_background">Transparent background</string>
+    <string name="pref_summary_widget_title">The text above the week number, leave empty for the default title</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="week">Week</string>
+
+    <string-array name="pref_first_day_of_week_titles">
+        <item>Monday (ISO 8601)</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="pref_first_day_of_week_values">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="pref_minimal_days_in_first_week_titles">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4 (ISO 8601)</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="pref_minimal_days_in_first_week_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="pref_widget_action_titles">
+        <item>This app</item>
+        <item>Calendar</item>
+    </string-array>
+    <string-array name="pref_widget_action_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_widget_theme_titles">
+        <item>Light text, dark background</item>
+        <item>Dark text, light background</item>
+    </string-array>
+    <string-array name="pref_widget_theme_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

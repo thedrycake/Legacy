@@ -1,0 +1,39 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_category_title_general" >
+        <ListPreference
+            android:key="current_city"
+            android:title="@string/pref_title_choose_city" />
+        <ListPreference
+            android:defaultValue="C"
+            android:entries="@array/pref_temp_unit_titles"
+            android:entryValues="@array/pref_temp_unit_values"
+            android:key="current_temp_unit"
+            android:title="@string/pref_title_choose_temp_unit" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="change_text_color_with_temp"
+            android:summary="@string/pref_summary_change_text_color_with_temp"
+            android:title="@string/pref_title_change_text_color_with_temp" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_title_widget" >
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/pref_widget_theme_titles"
+            android:entryValues="@array/pref_widget_theme_values"
+            android:key="widget_theme"
+            android:title="@string/pref_title_widget_theme" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="transparent_widget_background"
+            android:title="@string/pref_title_transparent_widget_background" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="change_widget_text_color_with_temp"
+            android:summary="@string/pref_summary_change_widget_text_color_with_temp"
+            android:title="@string/pref_title_change_widget_text_color_with_temp" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

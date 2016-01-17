@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_category_title_general" >
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/pref_first_day_of_week_titles"
+            android:entryValues="@array/pref_first_day_of_week_values"
+            android:key="first_day_of_week"
+            android:title="@string/pref_title_first_day_of_week" />
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/pref_minimal_days_in_first_week_titles"
+            android:entryValues="@array/pref_minimal_days_in_first_week_values"
+            android:key="minimal_days_in_first_week"
+            android:title="@string/pref_title_minimal_days_in_first_week" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_title_widget" >
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/pref_widget_theme_titles"
+            android:entryValues="@array/pref_widget_theme_values"
+            android:key="widget_theme"
+            android:title="@string/pref_title_widget_theme" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="widget_transparent_background"
+            android:title="@string/pref_title_widget_transparent_background" />
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="widget_title"
+            android:summary="@string/pref_summary_widget_title"
+            android:title="@string/pref_title_widget_title" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/pref_widget_action_titles"
+            android:entryValues="@array/pref_widget_action_values"
+            android:key="widget_action"
+            android:title="@string/pref_title_widget_action" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

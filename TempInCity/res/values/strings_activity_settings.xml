@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="title_activity_settings">Inställningar</string>
+
+    <!-- General settings -->
+    <string name="pref_category_title_general">Allmänt</string>
+    <string name="pref_title_choose_city">Välj stad</string>
+    <string name="pref_title_choose_temp_unit">Välj enhet</string>
+    <string name="pref_title_change_text_color_with_temp">Ändra färg med temperaturen</string>
+    <string name="pref_summary_change_text_color_with_temp">Ändra textens färg med avseende på temperaturen</string>
+
+    <string-array name="pref_temp_unit_titles">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+    <string-array name="pref_temp_unit_values">
+        <item>C</item>
+        <item>F</item>
+        <item>K</item>
+    </string-array>
+
+    <!-- Widget settings -->
+    <string name="pref_category_title_widget">Widget</string>
+    <string name="pref_title_transparent_widget_background">Genomskinlig bakgrund</string>
+    <string name="pref_title_change_widget_text_color_with_temp">Ändra färg med temperaturen</string>
+    <string name="pref_title_widget_theme">Tema</string>
+    <string name="pref_summary_change_widget_text_color_with_temp">Ändra textens färg med avseende på temperaturen</string>
+
+    <string-array name="pref_widget_theme_titles">
+        <item>Ljus text, mörk bakgrund</item>
+        <item>Mörk text, ljus bakgrund</item>
+    </string-array>
+    <string-array name="pref_widget_theme_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Veckonummer</string>
+    <string name="menu_settings">Inställningar</string>
+    <string name="not_available">N/A</string>
+    <string name="pref_category_title_general">Allmänt</string>
+    <string name="pref_category_title_widget">Widget</string>
+    <string name="pref_title_first_day_of_week">Första dagen på veckan</string>
+    <string name="pref_title_minimal_days_in_first_week">Minst antal dagar i vecka 1</string>
+    <string name="pref_title_widget_action">Öppna vid klick</string>
+    <string name="pref_title_widget_theme">Tema</string>
+    <string name="pref_title_widget_title">Rubrik</string>
+    <string name="pref_title_widget_transparent_background">Genomskinlig bakgrund</string>
+    <string name="pref_summary_widget_title">Texten ovanför veckonumret, lämna tomt för standardrubriken</string>
+    <string name="title_activity_settings">Inställningar</string>
+    <string name="week">Vecka</string>
+
+    <string-array name="pref_first_day_of_week_titles">
+        <item>Måndag (ISO 8601)</item>
+        <item>Tisdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lördag</item>
+        <item>Söndag</item>
+    </string-array>
+    <string-array name="pref_widget_action_titles">
+        <item>Denna app</item>
+        <item>Kalender</item>
+    </string-array>
+    <string-array name="pref_widget_theme_titles">
+        <item>Ljus text, mörk bakgrund</item>
+        <item>Mörk text, ljus bakgrund</item>
+    </string-array>
+
+</resources>
