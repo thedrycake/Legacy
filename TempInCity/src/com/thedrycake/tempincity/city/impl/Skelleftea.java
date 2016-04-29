@@ -63,7 +63,7 @@ public class Skelleftea extends AbstractCity {
 		int row = 0;
 		while ((line = bufferedReader.readLine()) != null) {
 			row++;
-			if (row == 56) {
+			if (row == 59) {
 				Matcher matcher = Pattern.compile("(\\d+:\\d+)").matcher(line);
 				if (matcher.find()) {
 					String timeString = matcher.group(1).trim();
@@ -75,7 +75,7 @@ public class Skelleftea extends AbstractCity {
 					calendar.set(Calendar.MINUTE, time.get(Calendar.MINUTE));
 					mTemperatureDate = calendar.getTime();
 				}
-			} else if (row == 69) {
+			} else if (row == 72) {
 				Matcher matcher = Pattern.compile("([-]?\\d+\\.\\d+)").matcher(line);
 				if (matcher.find()) {
 					mTemperatureInCelsius = Double.parseDouble(matcher.group(1).trim());
